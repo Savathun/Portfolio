@@ -1,0 +1,53 @@
+ thread affinity/proc_bind = 
+close
+A Matrix: 
+Row 1:	4.00	7.00	8.00	6.00	4.00	6.00	7.00	3.00	
+Row 2:	10.00	2.00	3.00	8.00	1.00	10.00	4.00	7.00	
+Row 3:	1.00	7.00	3.00	7.00	2.00	9.00	8.00	10.00	
+Row 4:	3.00	1.00	3.00	4.00	8.00	6.00	10.00	3.00	
+Row 5:	3.00	9.00	10.00	8.00	4.00	7.00	2.00	3.00	
+Row 6:	10.00	4.00	2.00	10.00	5.00	8.00	9.00	5.00	
+Row 7:	6.00	1.00	4.00	7.00	2.00	1.00	7.00	4.00	
+Row 8:	3.00	1.00	7.00	2.00	6.00	6.00	5.00	8.00	
+L Matrix: 
+Row 1:	4.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+Row 2:	10.00	-15.50	0.00	0.00	0.00	0.00	0.00	0.00	
+Row 3:	1.00	5.25	-4.76	0.00	0.00	0.00	0.00	0.00	
+Row 4:	3.00	-4.25	1.66	2.51	0.00	0.00	0.00	0.00	
+Row 5:	3.00	3.75	-0.11	1.73	-5.79	0.00	0.00	0.00	
+Row 6:	10.00	-13.50	-3.19	-1.00	6.91	-7.24	0.00	0.00	
+Row 7:	6.00	-9.50	2.42	3.88	-9.96	-5.72	21.21	0.00	
+Row 8:	3.00	-4.25	5.66	3.14	-5.42	5.74	-1.43	7.07	
+U Matrix: 
+Row 1:	1.00	1.75	2.00	1.50	1.00	1.50	1.75	0.75	
+Row 2:	0.00	1.00	1.10	0.45	0.58	0.32	0.87	0.03	
+Row 3:	0.00	0.00	1.00	-0.66	0.43	-1.22	-0.35	-1.91	
+Row 4:	0.00	0.00	0.00	1.00	2.69	1.95	3.60	1.62	
+Row 5:	0.00	0.00	0.00	0.00	1.00	0.38	2.21	0.41	
+Row 6:	0.00	0.00	0.00	0.00	0.00	1.00	1.32	1.30	
+Row 7:	0.00	0.00	0.00	0.00	0.00	0.00	1.00	0.46	
+Row 8:	0.00	0.00	0.00	0.00	0.00	0.00	0.00	1.00	
+LU Decomposition runs in 0.00 seconds 
+=====================JOB DIAGNOTICS========================
+Tue Dec  8 23:54:40 MST 2020
+This machine is node10
+My jobid is 37826
+My path is:
+/usr/lib64/qt-3.3/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/usr/local/maven/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/bin/intel64:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/opt/intel/debugger_2019/gdb/intel64/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/gcc-5.4.0/bin:/opt/ibutils/bin:/home/108603919/.local/bin:/home/108603919/bin
+PARTITION       AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
+month-long-cpu     up 31-00:00:0        2/14/0/16  node[2-17]
+week-long-cpu      up 7-00:00:00        2/14/0/16  node[2-17]
+day-long-cpu       up 1-00:00:00        2/14/0/16  node[2-17]
+short-cpu*         up      30:00        2/14/0/16  node[2-17]
+interactive-cpu    up 2-00:00:00        2/14/0/16  node[2-17]
+month-long-gpu     up 31-00:00:0          0/1/0/1  node18
+week-long-gpu      up 7-00:00:00          0/1/0/1  node18
+day-long-gpu       up 1-00:00:00          0/1/0/1  node18
+short-gpu          up      30:00          0/1/0/1  node18
+interactive-gpu    up 2-00:00:00          0/1/0/1  node18
+My job info:
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             37826 day-long- openmpco 10860391  R       0:00      1 node10
+Machine info
+ 
+========================ALL DONE===========================

@@ -1,0 +1,44 @@
+Array size: 4
+Array Area: 16
+Seed: 1
+Matrix A
+Row 0: 0.84	0.39	0.78	0.80	
+Row 1: 0.91	0.20	0.34	0.77	
+Row 2: 0.28	0.55	0.48	0.63	
+Row 3: 0.36	0.51	0.95	0.92	
+
+Matrix L
+Row 0: 1.00	0.00	0.00	0.00	
+Row 1: 0.30	1.00	0.00	0.00	
+Row 2: 0.40	0.88	1.00	0.00	
+Row 3: 0.92	0.43	0.64	1.00	
+
+Matrix U
+Row 0: 0.91	0.20	0.34	0.77	
+Row 1: 0.00	0.49	0.38	0.39	
+Row 2: 0.00	0.00	0.49	0.26	
+Row 3: 0.00	0.00	0.00	0.09	
+Processing Time: 164.7140 milliseconds
+driver shutting down in /home/108603919/csc5551/LU-Decomp-main/CUDA/cuda_lud.cu at line 54
+=====================JOB DIAGNOTICS========================
+Tue Dec  8 23:16:02 MST 2020
+This machine is node18
+My jobid is 37806
+My path is:
+/usr/lib64/qt-3.3/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/usr/local/maven/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/bin/intel64:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/opt/intel/debugger_2019/gdb/intel64/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/gcc-5.4.0/bin:/opt/ibutils/bin:/home/108603919/.local/bin:/home/108603919/bin
+My job info:
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             37806 short-gpu  gpucode 10860391  R       0:00      1 node18
+Machine info
+PARTITION       AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
+month-long-cpu     up 31-00:00:0        0/16/0/16  node[2-17]
+week-long-cpu      up 7-00:00:00        0/16/0/16  node[2-17]
+day-long-cpu       up 1-00:00:00        0/16/0/16  node[2-17]
+short-cpu*         up      30:00        0/16/0/16  node[2-17]
+interactive-cpu    up 2-00:00:00        0/16/0/16  node[2-17]
+month-long-gpu     up 31-00:00:0          1/0/0/1  node18
+week-long-gpu      up 7-00:00:00          1/0/0/1  node18
+day-long-gpu       up 1-00:00:00          1/0/0/1  node18
+short-gpu          up      30:00          1/0/0/1  node18
+interactive-gpu    up 2-00:00:00          1/0/0/1  node18
+========================ALL DONE===========================
