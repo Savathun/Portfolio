@@ -1,6 +1,4 @@
 # Portfolio
- 
-This repository contains samples of my (Daniel Schlatter) work over the last few years as a Computer Science student. 
 
 Repository is currently sorted by the language the project was written in, with sub folders for each project written in that language.
 
