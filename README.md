@@ -1,6 +1,6 @@
 # Portfolio
 
-### This repository is newly created and a work in progress!
+### This repository is newly created and currently under construction.
 
 Repository is currently sorted by the language the project was written in, with sub folders for each project written in that language.
 
