@@ -3,7 +3,6 @@
 # Class: CSCI 5742 Cybersecurity Programming
 # Name: Daniel Schlatter & Angela Mcneese
 # Date: 03/06/2021
-# Assignment: HW3 Part 2
 # Description: Run nmap against IP range 192.168.10.0/24, ports 1-65536 and check if any new ports have been opened/closed since the last scan. Log Changes to PortLog.log.
 
 if [ ! -f Ports.txt ] ; then
