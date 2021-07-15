@@ -1,7 +1,6 @@
-﻿# Class: CSCI 5742 Cybersecurity Programming
+# Class: CSCI 5742 Cybersecurity Programming
 # Name: Daniel Schlatter & Angela Mcneese
 # Date: 03/06/2021
-# Assignment: HW3 Part 1
 # Description: Check startup files, registry keys and folders for changes within the last $minutes minutes and output changed files to Write-Output. 
 
 param($minutes)
@@ -57,7 +56,7 @@ param(
  process {
     switch ($PSCmdlet.ParameterSetName) {
         "ByKey" {
-            # Already have the key, no more work to be done 🙂
+            # Already have the key
         }
         "ByPath" {
             # We need a RegistryKey object (Get-Item should return that)
@@ -72,8 +71,7 @@ param(
     }
  
     # Initialize variables that will be populated:
-    $ClassLength = 255 # Buffer size (class name is rarely used, and when it is, I've never seen
-                        # it more than 8 characters. Buffer can be increased here, though.
+    $ClassLength = 255 # Buffer size 
     $ClassName = New-Object System.Text.StringBuilder $ClassLength  # Will hold the class name
     $LastWriteTime = New-Object System.Runtime.InteropServices.ComTypes.FILETIME 
            
@@ -107,8 +105,7 @@ param(
         }
         122  { # ERROR_INSUFFICIENT_BUFFER (0x7a)
             throw "Class name buffer too small"
-            # function could be recalled with a larger buffer, but for
-            # now, just exit
+            # function could be recalled with a larger buffer, but for now, just exit
         }
         default {
             throw "Unknown error encountered (error code $_)"
