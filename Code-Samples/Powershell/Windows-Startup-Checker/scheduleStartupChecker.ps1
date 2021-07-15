@@ -1,7 +1,6 @@
 # Class: CSCI 5742 Cybersecurity Programming
 # Name: Daniel Schlatter & Angela Mcneese
 # Date: 03/06/2021
-# Assignment: HW3 Part 1
 # Description: Schedule a task for the StartChecker.ps1 script every five minutes. 
 
 $action = New-ScheduledTaskAction -Execute "Powershell" -Argument "C:\scripts\StartChecker.ps1 5 >> C:\scripts\Startup.log"
