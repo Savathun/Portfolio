@@ -13,7 +13,7 @@
 *  Description of the program
 *******************************************************
 
-The program "lab3" takes a file that contains link information and cost of between link of a whole network. It then finds the minimum spanning tree of the network using kruskals algorithm. m
+The program "mst" takes a file that contains link information and cost of between link of a whole network. It then finds the minimum spanning tree of the network using Kruskal's algorithm.
 
 
 *******************************************************
