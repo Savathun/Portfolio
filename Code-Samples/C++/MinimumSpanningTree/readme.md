@@ -1,7 +1,6 @@
 *******************************************************
-*  Name      :    Daniel Schlatter
-*  Student ID: 108603919                
-*  Class     :  CSC 3761           
+*  Name      :    Daniel Schlatter             
+*  Class     :  CSCI 3761           
 *  Due Date  :  May 6, 2019
 *******************************************************
 
